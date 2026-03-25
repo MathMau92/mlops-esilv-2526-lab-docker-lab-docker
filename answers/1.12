@@ -1,2 +1,1 @@
-docker run -d --name backend-api -p 8080:5000 -e CURRENT_ENVIRONMENT=development <votre_pseudo>/my-back-app
-docker run -d --name frontend-app -p 80:80 -e WS_BACK_URL=http://localhost:8080 <votre_pseudo>/my-front-app
+docker run -d --name frontend-app -p 80:80 -e TR_WS_BACK_URL=backend mathmau92/my-front-app
